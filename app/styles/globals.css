@@ -1,0 +1,22 @@
+/* app/styles/globals.css */
+
+/* 음악 제어 버튼 스타일 */
+.music-control-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ec4899; /* 핑크색 */
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .music-control-button:hover {
+    background-color: #d6367b; /* 다크 핑크 */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
